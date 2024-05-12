@@ -20,8 +20,8 @@
         <module>SimpleApp</module>
         <module>ConfigServer</module>
         <module>MainOperations</module>
-        <module>Service2</module>
-        <module>Service1</module>
+        <module>EurekaService2</module>
+        <module>EurekaService1</module>
         <module>APIGateway</module>
         <module>EurekaServer</module>
         <module>RestClient</module>
