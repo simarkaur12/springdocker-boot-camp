@@ -5,7 +5,7 @@
     <parent>
         <!-- Your own application should inherit from spring-boot-starter-parent -->
         <groupId>com.harskaur</groupId>
-        <artifactId>spring-boot-camp</artifactId>
+        <artifactId>springdocker-boot-camp</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
