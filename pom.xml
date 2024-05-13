@@ -3,12 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
+        <!-- Your own application should inherit from spring-boot-starter-parent -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.4</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.harskaur</groupId>
@@ -18,15 +17,24 @@
 
     <modules>
         <module>SimpleApp</module>
-        <module>ConfigServer</module>
-        <module>MainOperations</module>
-        <module>EurekaService2</module>
-        <module>EurekaService1</module>
-        <module>APIGateway</module>
+        <module>Transactional</module>
         <module>EurekaServer</module>
-        <module>RestClient</module>
+        <module>EurekaService1</module>
+        <module>EurekaService2</module>
+        <module>ApiGateway</module>
+        <module>ConfigServer</module>
+        <module>BookClientService</module>
+        <module>BookRestClient</module>
+        <module>DepartmentService</module>
+        <module>EmployeeService</module>
         <module>HystrixServer</module>
-        <module>HystrixServer</module>
+        <module>OrderService</module>
+        <module>UserResilienceService</module>
+        <module>Security</module>
+        <module>ZipkinApplication</module>
+        <module>ZuulAPIGateway</module>
+        <module>SimpleDockerPushAPI</module>
+        <module>SpringRestDocker</module>
     </modules>
 
     <properties>
@@ -84,4 +92,3 @@
         </plugins>
     </build>
 </project>
-
