@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Harsimar",
+    "price": 0,
+    "publishedDate": null
+  },
+  {
+    "id": 2,
+    "name": "Ridhima",
+    "price": 0,
+    "publishedDate": null
+  },
+  {
+    "id": 3,
+    "name": "Rahul",
+    "price": 0,
+    "publishedDate": null
+  },
+  {
+    "id": 4,
+    "name": "Riya",
+    "price": 0,
+    "publishedDate": null
+  },
+  {
+    "id": 5,
+    "name": "Riya",
+    "price": 0,
+    "publishedDate": null
+  },
+  {
+    "id": 6,
+    "name": "Mayank",
+    "price": 0,
+    "publishedDate": null
+  },
+  {
+    "id": 7,
+    "name": "Yash",
+    "price": 0,
+    "publishedDate": null
+  }
+]
